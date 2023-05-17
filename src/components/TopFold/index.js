@@ -7,8 +7,8 @@ const TopFold = () => {
     <div className="topfold absolute-center">
     <div className="tf-left">
       <div className='tf-heading'>
-        Discover collect, & sell{" "} <br />
-        <span className='heading-gradient'>Extraordinary </span>NFTs
+        Discover collect, & sell{" "} 
+        <span className='heading-gradient'>Extraordinary </span> NFTs
       </div>
       <div className="tf-description">
         Please make sure that you are buying and selling the most trending NFTs out there ,
@@ -37,7 +37,39 @@ const TopFold = () => {
 
       </div>
     </div>
-    <div className="tf-right"></div>
+    <div className="tf-right">
+
+      <div className="tf-right-diamond">
+
+      <div className="tf-r-diamond-item absolute-center" >
+          <img className="tf-r-diamond-img" 
+           alt="daimond-banner"
+          src="https://openseauserdata.com/files/22284fa002c7612a875381ab66b22abf.gif" />
+        </div>
+
+        <div className="tf-r-diamond-item absolute-center">
+          <img className="tf-r-diamond-img" 
+           alt="daimond-banner"
+          src="https://openseauserdata.com/files/c3a312c53514642e8041c65e10b40a52.gif " />
+        </div>
+        
+        <div className="tf-r-diamond-item absolute-center">
+          <img className="tf-r-diamond-img" 
+           alt="daimond-banner"
+          src="https://openseauserdata.com/files/24ed399dc3e5430b39a1db656f68c67c.gif" />
+        </div>
+        
+        <div className="tf-r-diamond-item absolute-center">
+          <img className="tf-r-diamond-img" 
+           alt="daimond-banner"
+          src="https://openseauserdata.com/files/0895e82346f5c31462d41ab75d9b90b1.gif" />
+        </div>
+        
+
+
+
+      </div>
+    </div>
    </div>
   )
 }

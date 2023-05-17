@@ -20,6 +20,7 @@
 
 }
 .tf-left-btns{
+    text-transform: uppercase;
     margin-top: 36px;
     display: flex;
 
@@ -44,4 +45,31 @@
 .tf-infoItem-label{
     font-size: 14px;
     font-weight: 600;
+}
+.tf-right{
+    display: flex;
+    flex: 1;
+    position: relative;
+
+}
+.tf-right-diamond{
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+}
+.tf-r-diamond-item{
+    height: 280px;
+    width: 280px;
+    overflow: hidden;
+    margin: 6px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    border: 3px solid var(--white);
+    border-radius: 12px;
+    
+}
+.tf-r-diamond-item img{
+    height: 400px;
+    object-fit: contain;
+    display: block;
 }

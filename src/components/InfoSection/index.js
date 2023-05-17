@@ -4,7 +4,7 @@ import "./infosection.css"
 const InfoSection = () => {
   return (
     <div>
-      InfoSection
+      InfoSection 
     </div>
   )
 }

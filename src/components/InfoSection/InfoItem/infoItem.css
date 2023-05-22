@@ -1,0 +1,17 @@
+.info-item{
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 28px;
+    width: 30%;
+}
+.ii-title{
+    font-size: 28px;
+    font-weight: 600;
+    padding: 12px;
+    margin-bottom: 36px;
+}
+
+.is-items-container{
+    display: flex;
+    justify-content: space-around;
+}

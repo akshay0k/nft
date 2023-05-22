@@ -11,6 +11,7 @@
 .primary-btn{
     color: var(--white);
     background-color: var(--btn-bg);
+    text-transform: uppercase;
 }
 .secondary-btn{
     border: 2px solid white;

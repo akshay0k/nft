@@ -1,0 +1,48 @@
+.trendingCard{
+    flex-direction: column;
+}
+.tc-inner-wrapper{
+    background: var(--text-gradient-1);
+    padding: 2px;
+    border-radius: 18px;
+}
+.tc-content{
+    background-color: var(--background);
+    border-radius: 18px;
+    padding: 18px;
+}
+.tc-banner{
+    height: 300px;
+    
+    border-radius: 18px;
+}
+.tc-user-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 16px 0px;
+}
+.tc-user-logo{
+    height: 60px;
+    
+    border-radius: 8px;
+    margin-right: 12px;
+}
+.tc-ui-left{
+    display: flex;
+    flex: 1;
+}
+.tc-ui-username{
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+.tc-ui-userhandle{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.tc-solana-logo{
+    height: 36px;
+}

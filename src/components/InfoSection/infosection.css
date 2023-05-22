@@ -1,0 +1,13 @@
+.info-section{
+    border: 2px solid var(--card-border) ;
+    margin: 48px 0px;
+    padding: 36px 18px;
+    border-radius: 24px;
+}
+.is-heading{
+    font-size: 36px;
+    font-weight: 700;
+    padding: 12px;
+    margin-bottom: 36px;
+
+}

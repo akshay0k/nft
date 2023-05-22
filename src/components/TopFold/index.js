@@ -38,6 +38,10 @@ const TopFold = () => {
       </div>
     </div>
     <div className="tf-right">
+      <div className="tf-r-bg-blob">
+        
+      </div>
+
 
       <div className="tf-right-diamond">
 

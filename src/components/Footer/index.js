@@ -3,8 +3,9 @@ import "./footer.css"
 
 const Footer = () => {
   return (
-    <div>
-      Footer
+    <div className='footer absolute-center'>
+      <span className='heading-gradient'>All rights reserved 2023</span> 
+   
     </div>
   )
 }

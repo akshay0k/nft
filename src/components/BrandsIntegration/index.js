@@ -3,7 +3,11 @@ import "./brandsintegration.css"
 
 const BrandsIntegration = () => {
   return (
-    <div>BrandsIntegration</div>
+    <div className='brands-integration absolute-center cur-po'>
+      <img src={require('../../Assets/brandsIntegration.png')} className='bi-logos' alt='brand-logos'>
+      </img>
+    
+      </div>
   )
 }
 

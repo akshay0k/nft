@@ -14,6 +14,7 @@ const App = () => {
       <TopFold/>
       <BrandsIntegration/>
       <TrendingNfts/>
+    
       <InfoSection/>
       <Footer/>
       
